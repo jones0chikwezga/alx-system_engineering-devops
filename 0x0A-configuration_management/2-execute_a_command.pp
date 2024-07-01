@@ -2,4 +2,4 @@
   
 exec { 'pkill -f killme now':
   path => '/usr/bin/:/usr/local/bin/:/bin/',
-}""
+}
